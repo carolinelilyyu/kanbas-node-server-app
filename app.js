@@ -6,6 +6,7 @@ import cors from "cors";
 import ModuleRoutes from "./modules/routes.js";
 import CourseRoutes from "./courses/routes.js";
 import "dotenv/config";
+// import AssignmentsRoutes from "./assignments/routes.js";
 
 const app = express();
 app.use(cors());
@@ -13,7 +14,7 @@ app.use(express.json());
 
 ModuleRoutes(app);
 CourseRoutes(app);
-
+// AssignmentsRoutes(app);
 Lab5(app);
 HelloRoutes(app);
 // app.listen(4000);
