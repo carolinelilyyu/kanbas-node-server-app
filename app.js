@@ -1,4 +1,5 @@
 // const express = require("express");
+import session from "express-session";
 import express from "express";
 import HelloRoutes from "./hello.js";
 import Lab5 from "./lab5.js";
@@ -13,7 +14,23 @@ import "dotenv/config";
 // import AssignmentsRoutes from "./assignments/routes.js";
 
 const app = express();
-app.use(cors());
+app.use(
+    cors({
+      credentials: true,
+      origin: "http://localhost:3000",
+    })
+   );
+   
+const sessionOptions = {
+    secret: "any string",
+    resave: false,
+    saveUninitialized: false,
+  };
+  app.use(
+    session(sessionOptions)
+  );
+  
+  
 app.use(express.json());
 
 UserRoutes(app);
