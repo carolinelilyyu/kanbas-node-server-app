@@ -3,6 +3,10 @@ import express from "express";
 import HelloRoutes from "./hello.js";
 import Lab5 from "./lab5.js";
 import cors from "cors";
+import mongoose from "mongoose";
+import UserRoutes from "./users/routes.js";
+
+mongoose.connect("mongodb://127.0.0.1:27017/kanbas-cs5610-fa23");
 import ModuleRoutes from "./modules/routes.js";
 import CourseRoutes from "./courses/routes.js";
 import "dotenv/config";
@@ -12,6 +16,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+UserRoutes(app);
 ModuleRoutes(app);
 CourseRoutes(app);
 // AssignmentsRoutes(app);
