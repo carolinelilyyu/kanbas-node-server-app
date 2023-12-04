@@ -15,10 +15,11 @@ function UserRoutes(app) {
         res.json(users);};
 
     const findUserById = async (req, res) => {
-        const { id } = req.params;
+        const id = req.params.id;
         const user = await dao.findUserById(id);
         res.json(user);
-    };
+        };
+        
     const findUserByUsername = async (req, res) => {
         const { username } = req.params;
         const user = await dao.findUserByUsername(username);
@@ -71,7 +72,7 @@ function UserRoutes(app) {
     app.get("/api/users/:username", findUserByUsername);
     app.post("/api/users", createUser);    
     //   app.get("/api/users/:username/:password", findUserByCredentials);
-    app.get("/api/users/:userId", findUserById);
+    app.get("/api/users/:id", findUserById);
     app.put("/api/users/:userId", updateUser);
     app.delete("/api/users/:userId", deleteUser);
     app.post("/api/users/signup", signup);
