@@ -14,11 +14,12 @@ function UserRoutes(app) {
         const users = await dao.findAllUsers();
         res.json(users);};
 
+
     const findUserById = async (req, res) => {
-        const id = req.params.id;
-        const user = await dao.findUserById(id);
+        const user = await dao.findUserById(req.params.userId);
         res.json(user);
         };
+        
         
     const findUserByUsername = async (req, res) => {
         const { username } = req.params;
