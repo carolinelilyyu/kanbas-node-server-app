@@ -22,19 +22,18 @@ app.use(
     })
   );
   
-   
-  const sessionOptions = {
+const sessionOptions = {
     secret: "any string",
     resave: false,
     saveUninitialized: false,
-  };
-  if (process.env.NODE_ENV !== "development") {
+    };
+    if (process.env.NODE_ENV !== "development") {
     sessionOptions.proxy = true;
     sessionOptions.cookie = {
-      sameSite: "none",
-      secure: true,
+        sameSite: "none",
+        secure: true,
     };
-  }
+}
 app.use(session(sessionOptions));
   
 app.use(express.json());
