@@ -1,0 +1,88 @@
+[{ 
+    "_id": {
+        "$oid": "75510e70870c092d5441bc94"
+    },
+    "title": "Quiz 1 - Propulsion",
+    "course": "RS101",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023"
+    },
+    { "_id": {
+        "$oid": "75510e70870c092d5441bc95"
+    }, 
+    "title": "Quiz 2 - Combustion Analysis", 
+    "course": "RS101",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023"
+    },
+    { "_id": {
+        "$oid": "75510e70870c092d5441bc96"
+    }, 
+    "title": "Final Exam - Nozzle Design", 
+    "course": "RS101",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023"
+    },
+    { "_id": {
+        "$oid": "75510e70870c092d5441bc97"
+    }, 
+    "title": "Quiz 1 - Aerodynamics", 
+    "course": "RS102",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023" 
+    },
+
+    { "_id": {
+        "$oid": "75510e70870c092d5441bc98"
+    }, 
+    "title": "Quiz 2 - Flow Analysis", 
+    "course": "RS102",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023" 
+    },
+
+    { "_id": {
+        "$oid": "75510e70870c092d5441bc99"
+    }, 
+    "title": "Quiz 3 - Heating Analysis", 
+    "course": "RS102",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023" 
+    },
+
+    { "_id": {
+        "$oid": "755117a7ea7ead465908d1fe"
+    }, 
+    "title": "Quiz 1 - Structural Design", 
+    "course": "RS103",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023" 
+    },
+
+    { "_id": {
+        "$oid": "755117bdea7ead465908d1ff"
+    }, 
+    "title": "Quiz 2 - Orbital Calculations", 
+    "course": "RS103",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023" 
+    },
+
+    { "_id": {
+        "$oid": "75511837ea7ead465908d203"
+    }, 
+    "title": "Final Exam - Systems Engineering", 
+    "course": "RS103",
+    "status" : "Open",
+    "points" : "29",
+    "duedate" : "September 18, 2023" 
+    }
+]
