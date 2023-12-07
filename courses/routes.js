@@ -1,4 +1,6 @@
 import Database from "../Database/index.js";
+// import { model } from "mongoose";
+// import * as dao from "./dao.js";
 function CourseRoutes(app) {
     app.delete("/api/courses/:id", (req, res) => {
         const { id } = req.params;
