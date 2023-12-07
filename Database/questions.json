@@ -1,7 +1,6 @@
 [{
-    "_id": {
-      "$oid": "85510e70870c092d5441bc94"
-    },
+    "_id": "85510e70870c092d5441bc94"
+    ,
     "question": "How much is 2+2?",
     "format": "Multiple Choice",
     "quiz": "75510e70870c092d5441bc94",
@@ -9,27 +8,24 @@
     "points" : "1"
   },
   {
-    "_id": {
-      "$oid": "85510e70870c092d5441bc95"
-    },
+    "_id": "85510e70870c092d5441bc95"
+    ,
     "question": "How much is 3+3?",
     "quiz": "75510e70870c092d5441bc94",
     "answer" : ["6", "3+3"],
     "points" : "2"
   },
   {
-    "_id": {
-      "$oid": "85510e70870c092d5441bc96"
-    },
+    "_id": "85510e70870c092d5441bc96"
+    ,
     "question": "Is combustion related to science?",
     "quiz": "75510e70870c092d5441bc94",
     "answer" : "true",
     "points" : "1"
   },
   {
-    "_id": {
-      "$oid": "85510e70870c092d5441bc97"
-    },
+    "_id": "85510e70870c092d5441bc97"
+    ,
     "question": "What is combustion?",
     "quiz": "75510e70870c092d5441bc94",
     "answer" : "Fill in the blank",
