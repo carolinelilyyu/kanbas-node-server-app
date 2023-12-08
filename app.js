@@ -8,7 +8,8 @@ import mongoose from "mongoose";
 import UserRoutes from "./users/routes.js";
 import ModuleRoutes from "./modules/routes.js";
 import CourseRoutes from "./courses/routes.js";
-// import AssignmentsRoutes from "./assignments/routes.js";
+import AssignmentsRoutes from "./assignments/routes.js";
+import QuizRoutes from "./quizzes/routes.js";
 
 import "dotenv/config";
 
@@ -54,10 +55,11 @@ app.use(session(sessionOptions));
   
 app.use(express.json());
 
+QuizRoutes(app);
 UserRoutes(app);
 ModuleRoutes(app);
 CourseRoutes(app);
-// AssignmentsRoutes(app);
+AssignmentsRoutes(app);
 Lab5(app);
 HelloRoutes(app);
 // app.listen(4000);
