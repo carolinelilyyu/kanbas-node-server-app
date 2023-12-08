@@ -10,6 +10,7 @@ import ModuleRoutes from "./modules/routes.js";
 import CourseRoutes from "./courses/routes.js";
 import AssignmentsRoutes from "./assignments/routes.js";
 import QuizRoutes from "./quizzes/routes.js";
+import QuestionsRoutes from "./questions/routes.js";
 
 import "dotenv/config";
 
@@ -56,6 +57,7 @@ app.use(session(sessionOptions));
 app.use(express.json());
 
 QuizRoutes(app);
+QuestionsRoutes(app);
 UserRoutes(app);
 ModuleRoutes(app);
 CourseRoutes(app);

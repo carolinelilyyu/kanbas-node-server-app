@@ -6,10 +6,9 @@ function QuestionsRoutes(app) {
 
   app.get("/api/quizzes/:qid/questions", (req, res) => {
     const { qid } = req.params;
-    console.log("QUIZID IS " + qid);
-    // const modules = db.modules
-    //   .filter((m) => console.log(m.course));//m.course === qid);
-    const filteredQuestions = db.questions.filter(questions => questions.course === qid);
+    console.log("Question for QUIZID IS " + qid);
+    console.log(db.questions);
+    const filteredQuestions = db.questions.filter(questions => questions.quiz === qid);
     console.log(filteredQuestions);
     res.send(filteredQuestions);
   });
@@ -24,7 +23,7 @@ function QuestionsRoutes(app) {
     const { qid } = req.params;
     const newQuiz = {
       ...req.body,
-      course: qid,
+      quiz: qid,
       _id: new Date().getTime().toString(),
     };
     db.questions.push(newQuiz);
