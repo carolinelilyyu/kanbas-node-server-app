@@ -5,10 +5,7 @@ import db from "../Database/index.js";
 function QuizzesRoutes(app) {
 
   app.get("/api/courses/:cid/quizzes", (req, res) => {
-    const { cid } = req.params;
-    console.log("CID IS " + cid);
-    // const modules = db.modules
-    //   .filter((m) => console.log(m.course));//m.course === cid);
+    const { cid }  = req.params;
     const filteredQuizzes = db.quizzes.filter(quizzes => quizzes.course === cid);
     console.log(filteredQuizzes);
     res.send(filteredQuizzes);
