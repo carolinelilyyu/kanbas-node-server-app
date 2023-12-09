@@ -1,39 +1,61 @@
 [{ 
-    "_id": "75510e70870c092d5441bc94"
-    , "title": "Quiz 1 - Propulsion",
+    "_id": "75510e70870c092d5441bc94",
+     "title": "Quiz 1 - Propulsion",
     "course": "RS101",
-    "status" : "Open",
+    "status" : "Available",
     "points" : "29",
-    "duedate" : "September 18, 2023"
+    "dueDate": "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11
+
     },
     { "_id": "75510e70870c092d5441bc95",
     "title": "Quiz 2 - Combustion Analysis", 
     "course": "RS101",
-    "status" : "Open",
-    "points" : "29",
-    "duedate" : "September 18, 2023"
+    "status" : "Available",
+    "points" : "32",
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11
     },
     { "_id": "75510e70870c092d5441bc96"
     , "title": "Final Exam - Nozzle Design", 
     "course": "RS101",
-    "status" : "Open",
+    "status" : "Available",
     "points" : "29",
-    "duedate" : "September 18, 2023"
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11
     },
+
     { "_id": "75510e70870c092d5441bc97"
     , "title": "Quiz 1 - Aerodynamics", 
     "course": "RS102",
-    "status" : "Open",
-    "points" : "29",
-    "duedate" : "September 18, 2023" 
+    "status" : "Available",
+    "points" : "30",
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11
     },
 
     { "_id": "75510e70870c092d5441bc98"
     , "title": "Quiz 2 - Flow Analysis", 
     "course": "RS102",
-    "status" : "Open",
+    "status" : "Available",
     "points" : "29",
-    "duedate" : "September 18, 2023" 
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11 
     },
 
     { "_id": "75510e70870c092d5441bc99"
@@ -41,30 +63,46 @@
     "course": "RS102",
     "status" : "Open",
     "points" : "29",
-    "duedate" : "September 18, 2023" 
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11 
     },
 
     { "_id": "755117a7ea7ead465908d1fe"
     , "title": "Quiz 1 - Structural Design", 
     "course": "RS103",
-    "status" : "Open",
+    "status" : "Available",
     "points" : "29",
-    "duedate" : "September 18, 2023" 
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11 
     },
 
     { "_id": "755117bdea7ead465908d1ff"
     , "title": "Quiz 2 - Orbital Calculations", 
     "course": "RS103",
-    "status" : "Open",
+    "status" : "Available",
     "points" : "29",
-    "duedate" : "September 18, 2023" 
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11 
     },
 
     { "_id": "75511837ea7ead465908d203"
     , "title": "Final Exam - Systems Engineering", 
     "course": "RS103",
-    "status" : "Open",
+    "status" : "Available",
     "points" : "29",
-    "duedate" : "September 18, 2023" 
+    "duedate" : "2022-10-05T13:00:00",
+    "until":"2022-10-05T13:00:00",
+    "availableDate":"2022-10-05T13:00:00",
+    "published": true,
+    "questions":11 
     }
 ]
