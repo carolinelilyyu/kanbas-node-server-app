@@ -13,6 +13,18 @@ function QuestionsRoutes(app) {
     res.send(filteredQuestions);
   });
 
+
+  app.get("/api/questions/:quid", (req, res) => {
+    const { quid } = req.params;
+    const question = db.questions
+      .find((q) => q._id === quid);
+    if (!question) {
+      res.status(404).send("Question not found");
+      return;
+    }
+    res.send(question);
+  });
+
     app.delete("/api/questions/:qid", (req, res) => {
         const { qid } = req.params;
         db.questions = db.questions.filter((q) => q._id !== qid);
@@ -21,15 +33,14 @@ function QuestionsRoutes(app) {
 
   app.post("/api/quizzes/:qid/questions", (req, res) => {
     const { qid } = req.params;
-    const newQuiz = {
+    const newQuestion = {
       ...req.body,
       quiz: qid,
       _id: new Date().getTime().toString(),
     };
-    db.questions.push(newQuiz);
-    res.send(newQuiz);
+    db.questions.push(newQuestion);
+    res.send(newQuestion);
   });
-
 
 app.put("/api/questions/:qid", (req, res) => {
     const { qid } = req.params;

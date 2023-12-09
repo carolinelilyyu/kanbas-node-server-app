@@ -20,7 +20,7 @@
     ,
     "question": "Is combustion related to science?",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : "true",
+    "answer" : ["true"],
     "points" : "1"
   },
   {
@@ -28,7 +28,7 @@
     ,
     "question": "What is combustion?",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : "Fill in the blank",
+    "answer" : [],
     "points" : "5"
   }
   ]
