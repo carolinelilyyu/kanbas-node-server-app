@@ -1,43 +1,43 @@
 [
     {
       "_id": "M101",
-      "name": "Introduction to Rocket Propulsion",
-      "description": "Basic principles of rocket propulsion and rocket engines.",
+      "name": "Introduction to the Course",
+      "description": "Learn Web Development - creating a web devlopment environment",
       "week": "0",
       "course": "RS101"
     },
     {
       "_id": "M102",
-      "name": "Fuel and Combustion",
-      "description": "Understanding rocket fuel, combustion processes, and efficiency.",
+      "name": "HTML",
+      "description": "Introduction to DOM and HTML & Assignment 1, Deployment to Netlify",
       "week": "1",
       "course": "RS101"
     },
     {
       "_id": "M103",
-      "name": "Nozzle Design",
-      "description": "Principles of rocket nozzle design and performance optimization.",
+      "name": "CSS",
+      "description": "Introduction to CSS, Selectors, IDs, Tags and document structure .",
       "week": "2",
       "course": "RS101"
     },
     {
       "_id": "M201",
-      "name": "Fundamentals of Aerodynamics",
-      "description": "Basic aerodynamic concepts and fluid dynamics principles.",
+      "name": "Design Exploration and Testing",
+      "description": "Essence of Objects.",
       "week": "0",
       "course": "RS102"
     },
     {
       "_id": "M202",
-      "name": "Subsonic and Supersonic Flow",
-      "description": "Understanding subsonic and supersonic aerodynamic behaviors.",
+      "name": "Review of Java",
+      "description": "Java Safari.",
       "week": "1",
       "course": "RS102"
     },
     {
       "_id": "M203",
-      "name": "Aerodynamic Heating",
-      "description": "Study of aerodynamic heating and thermal protection systems.",
+      "name": "Interface and Class Deisgn",
+      "description": "This lecture designs a simple example from scratch. We start from the description of a problem, convert it into an interface specification, complete one implementation and test it. In the next lecture we add another implementation, and show how abstraction can be used to minimize code replication..",
       "week": "2",
       "course": "RS102"
     },

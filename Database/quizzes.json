@@ -1,7 +1,7 @@
 [
     {
       "_id": "75510e70870c092d5441bc94",
-      "title": "Quiz 1 - Propulsion",
+      "title": "Quiz 1 - Web Development - HTML",
       "description": "Description for Quiz 1 - Propulsion",
       "course": "RS101",
       "status": "Available",
@@ -15,8 +15,8 @@
     },
     {
       "_id": "75510e70870c092d5441bc95",
-      "title": "Quiz 2 - Combustion Analysis",
-      "description": "Description for Quiz 2 - Combustion Analysis",
+      "title": "Quiz 2 - CSS ",
+      "description": "Description for Quiz 2 - CSS",
       "course": "RS101",
       "status": "Available",
       "points": "32",
@@ -29,7 +29,7 @@
     },
     {
       "_id": "75510e70870c092d5441bc96",
-      "title": "Final Exam - Nozzle Design",
+      "title": "Final Exam - Deploy a Node Server",
       "description": "Description for Final Exam - Nozzle Design",
       "course": "RS101",
       "status": "Available",
