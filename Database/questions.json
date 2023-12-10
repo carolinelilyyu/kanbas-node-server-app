@@ -1,34 +1,41 @@
 [{
     "_id": "85510e70870c092d5441bc94"
     ,
+    "title": "Simple Math",
     "question": "How much is 2+2?",
     "format": "Multiple Choice",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : ["4", "2+2"],
+    "options" : ["6", "4", "10", "3"],
     "points" : "1"
-  },
+    },
   {
     "_id": "85510e70870c092d5441bc95"
     ,
+    "title": "Bigger Simple Math",
     "question": "How much is 3+3?",
+    "format": "Multiple Choice",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : ["6", "3+3"],
+    "options":  ["6", "40", "20", "33"],
     "points" : "2"
   },
   {
     "_id": "85510e70870c092d5441bc96"
     ,
+    "title": "Combustion",
     "question": "Is combustion related to science?",
+    "format": "True/False",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : ["true"],
+    "options": ["true", "false"],
     "points" : "1"
-  },
+    },
   {
     "_id": "85510e70870c092d5441bc97"
     ,
-    "question": "What is combustion?",
+    "title": "Let's Think...",
+    "question": "What is combustion? It's about: _______",
+    "format": "Fill In The Blank",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : [],
+    "options": ["science", "combustion"],
     "points" : "5"
-  }
+    }
   ]
