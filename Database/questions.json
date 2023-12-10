@@ -1,54 +1,85 @@
-[{
-    "_id": "85510e70870c092d5441bc94"
-    ,
+[
+  {
+    "_id": "85510e70870c092d5441bc94",
+    "title": "Simple Math",
     "question": "What is full form for HTML",
     "format": "Multiple Choice",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : ["1"],
-    "points" : "1",
-    "options":["Hypertext Markup Language","Hyperbole Markup Language","Hypertext Makeup Language",
-    "Hypertext Makeup Language"]
+    "answer": [
+      "1"
+    ],
+    "points": "1",
+    "options": [
+      "Hypertext Markup Language",
+      "Hyperbole Markup Language",
+      "Hypertext Makeup Language",
+      "Hypertext Makeup Language"
+    ]
   },
   {
-    "_id": "85510e70870c092d5441bc95"
-    ,
-    "question": "What is full form for CSS ",
+    "_id": "85510e70870c092d5441bc95",
+    "title": "Bigger Simple Math",
+    "question": "How much is 3+3?",
+    "format": "Multiple Choice",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : ["2"],
-    "points" : "2",
-    "options":["Cascade Set Sheets","Cascade Style Sheets","Cascading Style Sheets","Cascading Set Sheets"]
+    "answer": [
+      "2"
+    ],
+    "points": "2",
+    "options": [
+      "Cascade Set Sheets",
+      "Cascade Style Sheets",
+      "Cascading Style Sheets",
+      "Cascading Set Sheets"
+    ]
   },
   {
-    "_id": "85510e70870c092d5441bc96"
-    ,
-    "question": "An HTML label element can be associated with an HTML input element by setting their id attributes to the same value.The resulting effect is that when you click on the label text, the input element receives focus as if you had click on the input element itself",
+    "_id": "85510e70870c092d5441bc96",
+    "title": "Combustion",
+    "question": "Is combustion related to science?",
+    "format": "True/False",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : ["0"],
-    "points" : "1",
-    "options":["The statement is correct",
-    "The statement is partially correct"]
+    "options": [
+      "true",
+      "false"
+    ],
+    "points": "1"
   },
   {
-    "_id": "85510e70870c092d5441bc97"
-    ,
+    "_id": "85510e70870c092d5441bc97",
+    "title": "Let's Think...",
+    "question": "What is combustion? It's about: _______",
+    "format": "Fill In The Blank",
+    "quiz": "75510e70870c092d5441bc94",
+    "options": [
+      "science",
+      "combustion"
+    ],
+    "points": "5"
+  },
+  {
+    "_id": "85510e70870c092d5441bc97",
     "question": "Consider the following code snippet ___1___ ___2___=value ___3___ Fill in the blanks to create an input field who's who's default value is November 22, 2011.",
     "quiz": "75510e70870c092d5441bc94",
-    "answer" : ["1"],
-    "points" : "5",
-    "options":["type, date, 2011-11-22",
-    "input , date, 22-11-2022",
-    "type, datetime, 22-11-22"]
+    "answer": [
+      "1"
+    ],
+    "points": "5",
+    "options": [
+      "type, date, 2011-11-22",
+      "input , date, 22-11-2022",
+      "type, datetime, 22-11-22"
+    ]
   },
-
-
   {
-    "_id": "85510e70870c092d5441bc98"
-    ,
+    "_id": "85510e70870c092d5441bc98",
     "question": "Which of the following options sets the background color of the heading below?",
     "format": "Multiple Choice",
     "quiz": "75510e70870c092d5441bc95",
-    "answer" : ["1"],
-    "points" : "1",
+    "answer": [
+      "1"
+    ],
+    "points": "1",
     "options": [
       "<style>h1 { background-color: blue }</style> <h1 class=\"blue\">Hello</h1>",
       "<style>h1.blue { background-color: blue }</style> <h1 id=\"blue\">Hello</h1>",
@@ -57,21 +88,28 @@
     ]
   },
   {
-    "_id": "85510e70870c092d5441bc99"
-    ,
+    "_id": "85510e70870c092d5441bc99",
     "question": "What is full form for CSS ",
     "quiz": "75510e70870c092d5441bc95",
-    "answer" : ["2"],
-    "points" : "2",
-    "options":["Cascade Set Sheets","Cascade Style Sheets","Cascading Style Sheets","Cascading Set Sheets"]
+    "answer": [
+      "2"
+    ],
+    "points": "2",
+    "options": [
+      "Cascade Set Sheets",
+      "Cascade Style Sheets",
+      "Cascading Style Sheets",
+      "Cascading Set Sheets"
+    ]
   },
   {
-    "_id": "85510e70870c092d5441bc100"
-    ,
+    "_id": "85510e70870c092d5441bc100",
     "question": "Which of the following is the best practice to importing CSS in an HTML document? Disregard HTML syntax errors",
     "quiz": "75510e70870c092d5441bc95",
-    "answer" : ["0"],
-    "points" : "0",
+    "answer": [
+      "0"
+    ],
+    "points": "0",
     "options": [
       "<link href=\"styles.css\" rel=\"stylesheet\"/> <p>Lorem Ipsum</p> file styles.css in the same directory contains: p { color: red }",
       "<style>p { color: red}</style> <p>Lorem Ipsum</p>",
@@ -79,29 +117,28 @@
     ]
   },
   {
-    "_id": "85510e70870c092d5441bc101"
-    ,
+    "_id": "85510e70870c092d5441bc101",
     "question": "Consider the following code snippet ___1___ ___2___=value ___3___ Fill in the blanks to create an input field who's who's default value is November 22, 2011.",
     "quiz": "75510e70870c092d5441bc95",
-    "answer" : ["1"],
-    "points" : "5",
-    "options":["type, date, 2011-11-22",
-    "input , date, 22-11-2022",
-    "type, datetime, 22-11-22"]
+    "answer": [
+      "1"
+    ],
+    "points": "5",
+    "options": [
+      "type, date, 2011-11-22",
+      "input , date, 22-11-2022",
+      "type, datetime, 22-11-22"
+    ]
   },
-
-
-
-
-
   {
-    "_id": "85510e70870c092d5441bc102"
-    ,
+    "_id": "85510e70870c092d5441bc102",
     "question": "Which of the following options sets the background color of the heading below?",
     "format": "Multiple Choice",
     "quiz": "75510e70870c092d5441bc96",
-    "answer" : ["1"],
-    "points" : "1",
+    "answer": [
+      "1"
+    ],
+    "points": "1",
     "options": [
       "<style>h1 { background-color: blue }</style> <h1 class=\"blue\">Hello</h1>",
       "<style>h1.blue { background-color: blue }</style> <h1 id=\"blue\">Hello</h1>",
@@ -110,21 +147,28 @@
     ]
   },
   {
-    "_id": "85510e70870c092d5441bc103"
-    ,
+    "_id": "85510e70870c092d5441bc103",
     "question": "What is full form for CSS ",
     "quiz": "75510e70870c092d5441bc96",
-    "answer" : ["2"],
-    "points" : "2",
-    "options":["Cascade Set Sheets","Cascade Style Sheets","Cascading Style Sheets","Cascading Set Sheets"]
+    "answer": [
+      "2"
+    ],
+    "points": "2",
+    "options": [
+      "Cascade Set Sheets",
+      "Cascade Style Sheets",
+      "Cascading Style Sheets",
+      "Cascading Set Sheets"
+    ]
   },
   {
-    "_id": "85510e70870c092d5441bc104"
-    ,
+    "_id": "85510e70870c092d5441bc104",
     "question": "Which of the following is the best practice to importing CSS in an HTML document? Disregard HTML syntax errors",
     "quiz": "75510e70870c092d5441bc96",
-    "answer" : ["0"],
-    "points" : "0",
+    "answer": [
+      "0"
+    ],
+    "points": "0",
     "options": [
       "<link href=\"styles.css\" rel=\"stylesheet\"/> <p>Lorem Ipsum</p> file styles.css in the same directory contains: p { color: red }",
       "<style>p { color: red}</style> <p>Lorem Ipsum</p>",
@@ -132,16 +176,17 @@
     ]
   },
   {
-    "_id": "85510e70870c092d5441bc105"
-    ,
+    "_id": "85510e70870c092d5441bc105",
     "question": "Consider the following code snippet ___1___ ___2___=value ___3___ Fill in the blanks to create an input field who's who's default value is November 22, 2011.",
     "quiz": "75510e70870c092d5441bc96",
-    "answer" : ["1"],
-    "points" : "5",
-    "options":["type, date, 2011-11-22",
-    "input , date, 22-11-2022",
-    "type, datetime, 22-11-22"]
+    "answer": [
+      "1"
+    ],
+    "points": "5",
+    "options": [
+      "type, date, 2011-11-22",
+      "input , date, 22-11-2022",
+      "type, datetime, 22-11-22"
+    ]
   }
-
-
-  ]
+]
