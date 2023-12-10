@@ -36,7 +36,8 @@ const app = express();
 app.use(
     cors({
       credentials: true,
-      origin: process.env.FRONTEND_URL
+      // origin: process.env.FRONTEND_URL
+      origin: "https://melodious-cassata-32f918.netlify.app",
     })
   );
   
